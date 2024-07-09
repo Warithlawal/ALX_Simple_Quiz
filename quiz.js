@@ -10,12 +10,9 @@ function checkAnswer () {
 			"Correct! Well done.";
 		} else {
 			document.getElementById('feedback').textContent = 
-			"This's incorrect. Try again!"
+			"That's incorrect. Try again!"
 		} 
-	}	else {
-			document.getElementById('feedback').textContent = 
-			"Please select an answer.!";
-		}
-	}
+	}	
+}
 
 	document.getElementById('submit-answer').addEventListener('click', checkAnswer);
